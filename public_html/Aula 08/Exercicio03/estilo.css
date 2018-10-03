@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+
+
+body {
+
+    background-image: linear-gradient(to right ,pink,whitesmoke);
+
+}
+
+.logo {
+
+    display: block;
+    padding: 12px;
+    position: 
+        relative;
+
+
+}
+
+p {
+    font-size: 15px;
+    font-style: inherit;
+    font-family: sans-serif;
+    margin: auto;
+    padding: 12px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+
+span {
+    padding: 12px;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+#qnt {
+
+    margin: auto;
+    margin-left: 30px;
+}
+
+#qnt2 {
+
+    margin: auto;
+    margin-left: 30px;
+}
+
+#qnt3 {
+
+    margin: auto;
+    margin-left: 20px;
+}
+
+#quantidade {
+
+    border: solid 1px gray;
+    border-mage-source: 15px 15px;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: deeppink;
+    color: white;
+
+    height: 30px;
+    text-align: center;
+    
+
+}
+
+#valor1 {
+
+    margin: auto;
+    margin-left: -20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#valor2 {
+
+    margin: auto;
+    margin-left: -20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#limpar {
+    font-size: 13px;
+    margin-left: 30px;
+    border-mage-source: 15px 15px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+#adicionar {
+    font-size: 13px;
+    border-rmage-source: 15px 15px; 
+    width: 170px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+#fechar {
+    font-size: 13px;
+    border-bottom:15px 15px;
+    margin-left: 30px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+
+}
+
+
+#produto {
+    
+   
+    font-family:cursive;
+    font-size: 13px;
+    background-color:deeppink;
+    border-image-source:15px 15px;
+    text-align: center;
+    color: white;
+    width: 170px;
+    height: 30px;
+}
+
+.ba{
+    background-color: deeppink;
+    color: white;
+}
+.lc{
+    background-color: deeppink;
+    color: white;
+}
+.fv{
+    background-color: deeppink;
+    color: white;
+}

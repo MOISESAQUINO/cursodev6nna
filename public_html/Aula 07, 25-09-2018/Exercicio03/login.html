@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Tela de Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+  
     </head>
-    <body style="background-image: linear-gradient(to left, grey,white)">
+    <body style="background-image: linear-gradient(to left, khaki, teal)">
 
 
         <script>
@@ -19,31 +17,26 @@ and open the template in the editor.
                 var login = document.getElementById("login").value;
                 var senha = document.getElementById("senha").value;
 
-                if (login === "admin" && senha === "123456") {
+                if (login === "binho" && senha === "2013") {
 
 
 
 
 
-                    // alert("Login Efetuado com Sucesso!");
-                    //   window.open('sucesso.html'); //Outra Janela.
-                    // Mesmo comportamento de um Redirecionamento HTTP
-                    window.location.replace("sucesso.html");
+                    window.location.replace("Liberado.html");
 
-                    // Mesmo comportamento de um click em um link
-                   // window.location.href = "cadastroDoador.html";
+                    
                 } else
                 {
 
-                    //  alert("Dados inválidos!");  
-                   // window.open('falha.html');
-                   window.location.replace("falha.html");
+                  
+                   window.location.replace("ferro.html");
                 }
             }
 
         </script>
 
-    <center><h1>Para entrar no sistema, digite seu login e sua senha nos campos a seguir</h1></center>
+    <center><h1>  Para entrar no sistema, digite seu login e sua senha nos campos a seguir</h1></center>
 
     <form action="" method="post" >
 

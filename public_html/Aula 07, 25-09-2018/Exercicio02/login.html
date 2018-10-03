@@ -9,8 +9,9 @@ and open the template in the editor.
         <title>Tela de Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body style="background-image: linear-gradient(to left, grey,white)">
+    <body style="background-image: linear-gradient(to left, khaki, teal)">
 
 
         <script>
@@ -19,7 +20,7 @@ and open the template in the editor.
                 var login = document.getElementById("login").value;
                 var senha = document.getElementById("senha").value;
 
-                if (login === "admin" && senha === "123456") {
+                if (login === "moises" && senha === "1994") {
 
 
 
@@ -27,13 +28,13 @@ and open the template in the editor.
 
                     // alert("Login Efetuado com Sucesso!");
                    // window.open('sucesso.html');
-                   window.location.replace("sucesso.html");
+                   window.location.replace("liberado.html");
                 } else
                 {
 
                     //  alert("Dados inválidos!");  
                    // window.open('falha.html');
-                   window.location.replace("falha.html");
+                   window.location.replace("erro.html");
                 }
             }
 
